@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background-image: url(../img/985998_celebrate-color-festival-holi-people-hd-wallpapers_2560x1600_h.jpg);
+}
+
+.box{
+    width: 300px;
+    padding:40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: #191919;
+}
+.box h1{
+color: #d8247c;
+text-transform: uppercase;
+font-weight: 500;
+
+
+
+
+}
+
+.box input[type="email"],.box input[type="password"], .box input[type="text"]{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #d8247c;
+    padding:14px 10px;
+    width:200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="email"]:focus,.box input[type="password"]:focus{
+width: 280px;
+border-color: slateblue;
+}
+
+.box input[type="submit"]{
+    border: 0;
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #d8247c;
+    padding:14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    background: gray;
+}
